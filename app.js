@@ -1,4 +1,3 @@
-/* 
 const updateDateTime = moment.utc("2024-09-08 13:00:00", "YYYY-MM-DD HH:mm:ss");
 let buttonAdded = false;
 let timerAdded = false; 
@@ -38,4 +37,3 @@ setInterval(function() {
     $("#countdown div").text(`${formattedHours}:${formattedMinutes}:${formattedSeconds}`);
   }
 }, 1000);
-*/
