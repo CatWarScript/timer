@@ -1,5 +1,5 @@
 /* 
-const updateDateTime = moment.utc("2024-09-07 22:40:00", "YYYY-MM-DD HH:mm:ss");
+const updateDateTime = moment.utc("2024-09-08 13:00:00", "YYYY-MM-DD HH:mm:ss");
 let buttonAdded = false;
 let timerAdded = false; 
 
@@ -8,7 +8,7 @@ setInterval(function() {
 
   if (now.isAfter(updateDateTime)) { 
     if (!buttonAdded) {
-      let htmlk = `<button id="update-button" onclick="window.open('https://openuserjs.org/scripts/CatWarScript/CatWar_Script', '_blank')">Обновить CatWar Script!</button>`;
+      let htmlk = `<button id="wowButton" onclick="window.open('https://openuserjs.org/scripts/CatWarScript/CatWar_Script', '_blank')">Обновить CatWar Script!</button>`;
       $('.container').append(htmlk);
       buttonAdded = true;
     }
