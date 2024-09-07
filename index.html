@@ -8,6 +8,42 @@
   <script src="app.js" defer></script> 
 <style>
   
+body {
+background-color: #a19ca6;
+color: #463f51; }
+
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 98vh;
+flex-direction: column; }
+
+#countdown {
+display: flex;
+justify-content: center;
+align-items: center; }
+
+div#clockContainer {
+font-family: Montserrat;
+font-weight: 500;
+font-size: 100px;
+letter-spacing: 15px;
+margin-left: 15px; }
+
+button#wowButton:hover {
+border: 2px solid #8d5353; }
+
+button#wowButton { 
+background-color: #2e2c31;
+color: #bcb7c2 !important;
+border: 2px solid #1b1311;
+border-radius: 30px !important;
+padding: 15px;
+font-weight: lighter;
+font-size: 20px;
+letter-spacing: 3px;
+margin-left: 3px; }
 </style>
 </head>
 <body>
@@ -15,7 +51,6 @@
           <div id="countdown">
             <div id="clockContainer"></div>
           </div>
-          <button id="wowButton" onclick="window.open('https://openuserjs.org/scripts/CatWarScript/CatWar_Script', '_blank')">Обновить CatWar Script!</button>
     </div>
   </body>
 </html> 
